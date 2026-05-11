@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Scorekeeper" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">#3f51b5</item>
+        <item name="colorPrimaryDark">#303F9F</item>
+        <item name="colorAccent">#FF4081</item>
+    </style>
+
+    <!-- Стиль для всіх кнопок -->
+    <style name="ScoreButtons" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:tint">#3f51b5</item>
+    </style>
+
+    <!-- Стиль для кнопок плюс -->
+    <style name="PlusButtons" parent="ScoreButtons">
+        <item name="android:src">@drawable/ic_plus</item>
+        <item name="android:contentDescription">Plus Button</item>
+    </style>
+
+    <!-- Стиль для кнопок мінус -->
+    <style name="MinusButtons" parent="ScoreButtons">
+        <item name="android:src">@drawable/ic_minus</item>
+        <item name="android:contentDescription">Minus Button</item>
+    </style>
+
+    <!-- Стиль для тексту рахунку -->
+    <style name="ScoreText">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Display3</item>
+    </style>
+
+    <!-- Стиль для назв команд -->
+    <style name="TeamText">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Display1</item>
+    </style>
+
+</resources>
