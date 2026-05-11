@@ -167,4 +167,3 @@ recyclerView.addItemDecoration(
 | Lab 7-8 | Building an Interactive UI | HelloToast | ✅ Done |
 | Lab 9 | RecyclerView and CardView | ContactList | ✅ Done |
 | Lab 10-12 | Applying Styles and Themes | Scorekeeper | ✅ Done |
-| Lab 20 | Preparing and Publishing an Android App | — | ✅ Done |
